@@ -21,13 +21,5 @@ This issue isn't just an anecdotal observation—it is backed by research data f
 * **AI Agent Success Rate:** **~14.41%** on the exact same benchmark tasks.
 * **The Key Takeaway:** Current state-of-the-art models fail over 85% of the time on complex, multi-step web workflows. The primary culprit isn't a lack of intelligence; it is the absence of robust error detection, step verification, and loop-breaking mechanisms.
 
----
 
-### 💻 My Practical Research & Hardware Focus
 
-Instead of trying to train massive models, my focus is on building practical, deterministic guardrails that sit around the agent to monitor its behavior:
-
-* **Loop Prevention & Timeout Logic:** Writing lightweight C++ and Python wrapper scripts that track action history. If the system detects duplicate actions or zero-progress steps, it forcefully interrupts the agent and triggers a reset.
-* **Local Execution Constraints:** Testing small, open-weights models (e.g., Llama 3B, Phi-3) locally on a **Dell Latitude 5420 (Intel 11th Gen Processor)**. 
-* **Thermal & Resource Monitoring:** Keeping track of CPU load spikes and thermal limits using monitoring tools to ensure local AI agents run efficiently without frying local system hardware.
-* **Goal:** Building privacy-first, low-resource agent frameworks that remain reliable even when the core AI model makes mistakes.
