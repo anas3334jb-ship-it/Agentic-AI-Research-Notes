@@ -4,7 +4,7 @@ Welcome! This repository tracks my learning log as I explore how AI agents work 
 
 ---
 
-### 📖 The Core Problem: Why Autonomous AI Agents Go Off Track
+###  The Core Problem: Why Autonomous AI Agents Go Off Track
 
 Working with AI agents is very different from chatting with a standard LLM. When you give an agent a multi-step task and let it run unattended, it frequently drifts off course. Because LLMs lack real-world common sense and context continuity, they tend to fail in two main ways:
 
@@ -13,7 +13,7 @@ Working with AI agents is very different from chatting with a standard LLM. When
 
 ---
 
-### 📊 The Hard Numbers: Lessons from the WebArena Benchmark
+###  The Hard Numbers: Lessons from the WebArena Benchmark
 
 This issue isn't just an anecdotal observation—it is backed by research data from benchmark papers like **WebArena**:
 
